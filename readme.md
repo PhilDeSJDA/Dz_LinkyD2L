@@ -5,7 +5,8 @@ Il s'agit de créer un plugin qui permettra de disposer en temps réel dans Domo
 
 J'ai débuté les travaux d'intégration mi Juillet 2019. Mais ça a l'air de commencer à (bien) fonctionner (sur RaspBerry)
 On cree un répertoire dans domoticz/plugins ... LinkyD2L par exemple.
-On  Dans domoticz on ajoute le Hardware D2L et ca fait ... des choses
+On dépose dans ce répertoire les 2 fichiers : plugin.py et son poisson pilote D2L.py
+ Dans domoticz on ajoute le Hardware D2L et ça fait ... des choses
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1Mjk4NTIzLDQyNDIyNDY0XX0=
+eyJoaXN0b3J5IjpbOTQxMzQxOTE3LDQyNDIyNDY0XX0=
 -->
