@@ -16,9 +16,9 @@ Copier dans le répertoire des plugins de Domoticz (domoticz/plugins), les fichi
 Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** . 3 devices seront alors créés :
  - **LKY_Watts** : consommation instantanée 
  - **LKY_Amperes** : suivi de l'intensité consommée en temps réel
- - LKY_IndexKWH : valeur de l'index Enedis
- - 
+ - **LKY_IndexKWH** : valeur de l'index Enedis
+ Les deux modu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODA4NDAxXX0=
+eyJoaXN0b3J5IjpbMTE4NzkxMzMxNywtNTY4MDg0MDFdfQ==
 -->
