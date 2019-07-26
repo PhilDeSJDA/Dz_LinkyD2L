@@ -13,12 +13,16 @@ J'ai débuté l'intégration mi Juillet `<br>`Et ça a l'air de commencer à (bi
 Copier dans le répertoire des plugins de Domoticz (domoticz/plugins), les fichiers suivants
  - plugin.py : le code principal
  - D2L.py : le "poisson pilote" du précédent (le code de ce que je ne suis pas arrivé à intégrer facilement dans le plugin)
-Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** . 3 devices seront alors créés :
+Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** . 3 "devices" seront alors créés :
  - **LKY_Watts** : consommation instantanée 
  - **LKY_Amperes** : suivi de l'intensité consommée en temps réel
  - **LKY_IndexKWH** : valeur de l'index Enedis
  Les deux modules communiquent via un fichier dans leur répertoire : D2L.json et sa forme lisible D2L.txt est également disponible dans le répertoire
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDE5MTM4MSwtNTY4MDg0MDFdfQ==
+eyJoaXN0b3J5IjpbMTcxODE4NjU0OSwtMjc0MTkxMzgxLC01Nj
+gwODQwMV19
 -->
