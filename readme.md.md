@@ -9,7 +9,7 @@ Intégration dans **Domoticz** de l'interface temps réel avec Linky que propose
 
 Ce module est d'ores et déjà intégré pour eeDomus.  
 Il s'agit de créer un plugin qui permettra de disposer en temps réel dans Domoticz des principales données de Linky et d'ainsi de pouvoir bénéficier des services de Dz (Alertes/Notification/Historisations) et scripting (Lua/Blocky) 
-J'ai débuté l'intégration mi Juillet Et ça a l'air de commencer à (bien) fonctionner (version raspberry).
+J'ai débuté l'intégration mi Juillet Et ça a l'air de commencer à (bien) fonctionner (version raspberry).  
 On crée un répertoire dans domoticz/plugins ... LinkyD2L par exemple. Dans domoticz on ajoute le Hardware D2L et ca fait ... des choses
 ## Installation
 Copier dans le répertoire des plugins de Domoticz (domoticz/plugins), les fichiers suivants
@@ -26,8 +26,8 @@ Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** .
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwODEwMzUwLDE2MDEzMzE1MjAsNjE5Nz
-cyMjU0LC00MzU2MjU5MzYsLTE1MTAyNTk5MjQsLTEwODY4MzUw
-NjQsMTI4NzE0MzY2MSwxMDc3Mjk1ODU2LDE3MTgxODY1NDksLT
-I3NDE5MTM4MSwtNTY4MDg0MDFdfQ==
+eyJoaXN0b3J5IjpbLTQ1NzEyMTU1NCwxNjAxMzMxNTIwLDYxOT
+c3MjI1NCwtNDM1NjI1OTM2LC0xNTEwMjU5OTI0LC0xMDg2ODM1
+MDY0LDEyODcxNDM2NjEsMTA3NzI5NTg1NiwxNzE4MTg2NTQ5LC
+0yNzQxOTEzODEsLTU2ODA4NDAxXX0=
 -->
