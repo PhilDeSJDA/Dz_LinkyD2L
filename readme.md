@@ -19,12 +19,12 @@ Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** .
  - **LKY_Amperes** : suivi de l'intensité consommée en temps réel
  - **LKY_IndexKWH** : valeur de l'index Enedis
  Les deux modules python communiquent via un fichier créé dans leur répertoire : *D2L.json* . sa forme lisible *D2L.txt* est également disponible dans le répertoire
-## Aperçu
+## Aperçus
 
-
+[enter link description here](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LinkyD2L_Create.png)
 [Le suivi journalier de la consommation](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LKY_watts.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzExMjE4LC00OTgxNzE0ODhdfQ==
+eyJoaXN0b3J5IjpbNzk5MTMxNjg4LC00OTgxNzE0ODhdfQ==
 -->
