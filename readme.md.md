@@ -5,7 +5,7 @@
 
 
 (English Later, Linky is so Frenchie)
-Intégration dans **Domoticz** de l'interface temps réel avec Linky que propose le module D2L d'eeSmart 
+Intégration dans **Domoticz** de l'interface temps réel avec Linky que propose le module D2L d'eeSmart  ( [http://eesmart.fr/gammes/d2l/])(http://eesmart.fr/gammes/d2l/)
 Ce module est d'ores et déjà intégré pour eeDomus.  
 Il s'agit de créer un plugin qui permettra de disposer en temps réel dans Domoticz les principales données de Linky et d'ainsi de pouvoir bénéficier des services de Dz (Alertes/Notification/Historisations) et scripting (Lua/Blocky) 
 J'ai débuté l'intégration mi Juillet Et ça a l'air de commencer à (bien) fonctionner On crée un répertoire dans domoticz/plugins ... LinkyD2L par exemple. Dans domoticz on ajoute le Hardware D2L et ca fait ... des choses
@@ -23,6 +23,7 @@ Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** .
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzE0MzY2MSwxMDc3Mjk1ODU2LDE3MT
-gxODY1NDksLTI3NDE5MTM4MSwtNTY4MDg0MDFdfQ==
+eyJoaXN0b3J5IjpbMTA0NDYwMzc3MywxMjg3MTQzNjYxLDEwNz
+cyOTU4NTYsMTcxODE4NjU0OSwtMjc0MTkxMzgxLC01NjgwODQw
+MV19
 -->
