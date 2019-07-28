@@ -23,10 +23,11 @@ Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** .
 
 [Installation dans le HardWare](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LinkyD2L_Create.png)  
 
+
 [Le suivi journalier de la consommation](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LKY_watts.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc3MTk1NDcsMTY5OTUxMzgyMywtND
-k4MTcxNDg4XX0=
+eyJoaXN0b3J5IjpbLTE1Mzk3MzgxNTMsLTE2OTc3MTk1NDcsMT
+Y5OTUxMzgyMywtNDk4MTcxNDg4XX0=
 -->
