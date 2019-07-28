@@ -20,11 +20,11 @@ Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** .
  Les deux modules python communiquent via un fichier créé dans leur répertoire : *D2L.json* . sa forme lisible *D2L.txt* est également disponible dans le répertoire
 ## Apperçu
 
-[enter link description here](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LKY_watts.png)
+[Le suivi journalier de la consommation](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LKY_watts.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjg5NjA4MDUsLTE1MTAyNTk5MjQsLT
-EwODY4MzUwNjQsMTI4NzE0MzY2MSwxMDc3Mjk1ODU2LDE3MTgx
-ODY1NDksLTI3NDE5MTM4MSwtNTY4MDg0MDFdfQ==
+eyJoaXN0b3J5IjpbLTQzNTYyNTkzNiwtMTUxMDI1OTkyNCwtMT
+A4NjgzNTA2NCwxMjg3MTQzNjYxLDEwNzcyOTU4NTYsMTcxODE4
+NjU0OSwtMjc0MTkxMzgxLC01NjgwODQwMV19
 -->
