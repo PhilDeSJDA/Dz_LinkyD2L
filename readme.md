@@ -4,7 +4,7 @@
 # DzLinkyD2L
 
 
-(English Later, Linky is so Frenchie)  
+(English Later, Linky is so ... "*Frenchie*")  
 Intégration dans **Domoticz** de l'interface temps réel avec Linky que propose le module D2L d'eeSmart (~50€) , voir ici  [http://eesmart.fr/modulesd2l/erl-wifi-compteur-linky/](http://eesmart.fr/modulesd2l/erl-wifi-compteur-linky/),  et propose un suivi temps réel en consultation sur son site web : *consospy*  
 Ce module est d'ores et déjà intégré pour eeDomus.  
 Il s'agit de créer un plugin qui permettra de disposer en temps réel dans Domoticz des principales données de Linky et d'ainsi de pouvoir bénéficier des services de Dz (Alertes/Notification/Historisations) et scripting (Lua/Blocky) 
@@ -29,7 +29,8 @@ Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** .
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjM4ODMyMyw0MTYwNzExODgsMTExND
-M4OTAzMCw1ODE5NzQ5NzgsNjQ0ODQ4MDQwLC04OTUxNTAxNTAs
-LTE2OTc3MTk1NDcsMTY5OTUxMzgyMywtNDk4MTcxNDg4XX0=
+eyJoaXN0b3J5IjpbMTE3NjU2MjgwNSwxODc2Mzg4MzIzLDQxNj
+A3MTE4OCwxMTE0Mzg5MDMwLDU4MTk3NDk3OCw2NDQ4NDgwNDAs
+LTg5NTE1MDE1MCwtMTY5NzcxOTU0NywxNjk5NTEzODIzLC00OT
+gxNzE0ODhdfQ==
 -->
