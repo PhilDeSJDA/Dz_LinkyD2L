@@ -14,7 +14,7 @@ On crée un répertoire dans domoticz/plugins ... LinkyD2L par exemple. Dans dom
 Copier dans le répertoire des plugins de Domoticz (domoticz/plugins), les fichiers suivants
  - plugin.py : le code principal
  - D2L.py : le "poisson pilote" du précédent (le code de ce que je ne suis pas arrivé à intégrer facilement dans le plugin)
-Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** . 3 "devices" seront alors créés dans l'onglet utilit (Mesures) :
+Dans Domoticz Hardware (Matériel) Installer le plugin D2L, en renseignant vos codes **consospy** . 3 Devices (Dispositifs) seront alors créés dans l'onglet Utility (Mesures) :
  - **LKY_Watts** : consommation instantanée 
  - **LKY_Amperes** : suivi de l'intensité consommée en temps réel
  - **LKY_IndexKWH** : valeur de l'index Enedis
@@ -22,15 +22,15 @@ Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** .
 ## Aperçus
 
 [Parametrage de l'installation](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LinkyD2L_Create.png)  
-[Les 3 devices dans Utilities](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LinkyD2L_Utility.png)  
+[Les 3 devices dans Utility](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LinkyD2L_Utility.png)  
 [Suivi de la consommation](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LinkyD2L_Watts.png)  
 [Suivi de l'Ampérage](https://github.com/PhilDeSJDA/Dz_LinkyD2L/blob/master/LinkyD2L_Amperes.png)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3MTczMjkwLC0xMjQ1NzYzMzI4LDExNz
-Y1NjI4MDUsMTg3NjM4ODMyMyw0MTYwNzExODgsMTExNDM4OTAz
-MCw1ODE5NzQ5NzgsNjQ0ODQ4MDQwLC04OTUxNTAxNTAsLTE2OT
-c3MTk1NDcsMTY5OTUxMzgyMywtNDk4MTcxNDg4XX0=
+eyJoaXN0b3J5IjpbMTc4NTMzNzExMCwtMTI0NTc2MzMyOCwxMT
+c2NTYyODA1LDE4NzYzODgzMjMsNDE2MDcxMTg4LDExMTQzODkw
+MzAsNTgxOTc0OTc4LDY0NDg0ODA0MCwtODk1MTUwMTUwLC0xNj
+k3NzE5NTQ3LDE2OTk1MTM4MjMsLTQ5ODE3MTQ4OF19
 -->
