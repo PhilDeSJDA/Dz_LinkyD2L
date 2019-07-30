@@ -1,8 +1,7 @@
-# Basic Python Plugin Example
 #
 # Author: Philou55 sur base GizMoCuz
 #
-# Le 
+# Integration Domoticz de l ERL D2L pour le compteur Linky 
 #
 """
 <plugin key="LinkyD2L" name="D2L pour Linky" author="Philou55" version="1.0.0">
@@ -57,9 +56,9 @@ class BasePlugin:
         Domoticz.Log("START with (" + self.sUser+","+self.sPassword+") scan every "+self.sMins+" mn ("+str(self.nflag01)+ "HB) , Debug="+self.sDebug)
 
         if(len(Devices)==0): 
-           Domoticz.Device(Name="D2L_Index",  Unit=1, TypeName="Custom").Create()
-           Domoticz.Device(Name="D2L_Intens",  Unit=2, TypeName="Current/Ampere").Create()
-           Domoticz.Device(Name="D2L_Watt",  Unit=3, TypeName="kWh").Create()
+           Domoticz.Device(Name="LKY_IndexKWH",  Unit=1, TypeName="Custom", Used=1).Create()
+           Domoticz.Device(Name="LKY_Amperes",  Unit=2, TypeName="Current/Ampere", Used=1).Create()
+           Domoticz.Device(Name="LKY_Watts",  Unit=3, TypeName="kWh", Used=1).Create()
   
         if self.debug: DumpConfigToLog()
 
@@ -87,7 +86,7 @@ class BasePlugin:
           res=os.system("python " + script + " " + self.sUser + " "+ self.sPassword)
           if self.debug: Domoticz.Log(script+"Result is "+str(res))
 
-          fichier=(self.path + "/" + "D2L.txt")
+          fichier=(self.path + "/" + "D2L.json")
           if os.path.isfile(fichier):
             with open(fichier) as json_file:
               data = json.load(json_file) 

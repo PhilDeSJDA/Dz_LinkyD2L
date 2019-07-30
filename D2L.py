@@ -20,7 +20,9 @@ def error_exit(status,message):
   f=open(outFile,"w")
   f.write(json.dumps(res_dict))
   f.close()
-  print(str(res_dict).replace(",","\n"))
+  f=open(txtFile,"w")
+  f.write(str(res_dict).replace(",","\n"))
+  f.close()
   exit(status)
 
 #
@@ -31,7 +33,8 @@ def error_exit(status,message):
 version = "1.0.1"
 script  = os.path.realpath(__file__)
 path=os.path.dirname(script)
-outFile = path + "/D2L.txt"
+txtFile = path + "/D2L.txt"
+outFile = path + "/D2L.json"
 apiBase='https://consospyapi.sicame.io/api/D2L'
 apiB=apiBase + '/D2LS'
 # Recuperation des identifiants consospy
@@ -136,7 +139,10 @@ while(i<len(j)):
 f.write(json.dumps(res_dict))
 f.close()
 
-print(str(res_dict).replace(",","\n"))
+f=open(txtFile,"w")
+f.write(str(res_dict).replace(",","\n"))
+f.close()
+
 
 exit(0)
 
