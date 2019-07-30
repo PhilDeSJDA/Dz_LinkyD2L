@@ -9,9 +9,9 @@ Il s'agit de créer un plugin qui permettra de disposer en temps réel dans *Dom
 J'ai débuté l'intégration mi Juillet Et ça a l'air de commencer à (bien) fonctionner (version Raspberry).  
 On crée un répertoire dans domoticz/plugins ... LinkyD2L par exemple. Dans domoticz on ajoute le Hardware D2L et ca fait ... des choses
 ## Installation
-Copier dans le répertoire des plugins que vous avez créé (domoticz/plugins), les fichiers suivants
+Copier dans le répertoire des plugins que vous avez créé (*domoticz/plugins/LinkyD2L*), les fichiers suivants :
  - plugin.py : le code principal
- - D2L.py : le "poisson pilote" du précédent (le code de ce que je ne suis pas arrivé à intégrer facilement dans le plugin)
+ - D2L.py : le "poisson pilote" du précédent (le code de ce que je ne suis pas arrivé à intégrer facilement dans le plugin)  
 Dans Domoticz Hardware (Matériel) Installer le plugin **D2L pour  Linky**, en renseignant vos codes **consospy** . 3 Devices (Dispositifs) seront alors créés dans l'onglet Utility (Mesures) :  
 Il sont préfixés par "D2L - ", vous pourrez les renommer dans l'onglet Devices  (Dispositifs)
  - **LKY_Watts** : consommation instantanée 
@@ -28,10 +28,10 @@ Il sont préfixés par "D2L - ", vous pourrez les renommer dans l'onglet Devices
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTcyOTAyNDEsMjEyMzA2Njg0MCwtMj
-AyNjcwMTQxNiwxMTAwNDAyMDAzLDE3ODUzMzcxMTAsLTEyNDU3
-NjMzMjgsMTE3NjU2MjgwNSwxODc2Mzg4MzIzLDQxNjA3MTE4OC
-wxMTE0Mzg5MDMwLDU4MTk3NDk3OCw2NDQ4NDgwNDAsLTg5NTE1
-MDE1MCwtMTY5NzcxOTU0NywxNjk5NTEzODIzLC00OTgxNzE0OD
-hdfQ==
+eyJoaXN0b3J5IjpbLTgyNzI3MjU4MywyMTIzMDY2ODQwLC0yMD
+I2NzAxNDE2LDExMDA0MDIwMDMsMTc4NTMzNzExMCwtMTI0NTc2
+MzMyOCwxMTc2NTYyODA1LDE4NzYzODgzMjMsNDE2MDcxMTg4LD
+ExMTQzODkwMzAsNTgxOTc0OTc4LDY0NDg0ODA0MCwtODk1MTUw
+MTUwLC0xNjk3NzE5NTQ3LDE2OTk1MTM4MjMsLTQ5ODE3MTQ4OF
+19
 -->
