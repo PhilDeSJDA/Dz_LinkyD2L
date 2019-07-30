@@ -15,7 +15,7 @@ Copier dans le répertoire des plugins de Domoticz (domoticz/plugins), les fichi
  - plugin.py : le code principal
  - D2L.py : le "poisson pilote" du précédent (le code de ce que je ne suis pas arrivé à intégrer facilement dans le plugin)
 Dans Domoticz Hardware (Matériel) Installer le plugin **D2L pour  Linky**, en renseignant vos codes **consospy** . 3 Devices (Dispositifs) seront alors créés dans l'onglet Utility (Mesures) :  
-Il sont préfixés par D2L - vous pouvez les renommer dans l'onglet devices (dispositifs)
+Il sont préfixés par "D2L - ", vous pouvez les renommer dans l'onglet devices (dispositifs)
  - **LKY_Watts** : consommation instantanée 
  - **LKY_Amperes** : suivi de l'intensité consommée en temps réel
  - **LKY_IndexKWH** : valeur de l'index Enedis
@@ -30,9 +30,9 @@ Il sont préfixés par D2L - vous pouvez les renommer dans l'onglet devices (dis
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjE5MTc2OCwxMTAwNDAyMDAzLDE3OD
-UzMzcxMTAsLTEyNDU3NjMzMjgsMTE3NjU2MjgwNSwxODc2Mzg4
-MzIzLDQxNjA3MTE4OCwxMTE0Mzg5MDMwLDU4MTk3NDk3OCw2ND
-Q4NDgwNDAsLTg5NTE1MDE1MCwtMTY5NzcxOTU0NywxNjk5NTEz
-ODIzLC00OTgxNzE0ODhdfQ==
+eyJoaXN0b3J5IjpbLTIwMjY3MDE0MTYsMTEwMDQwMjAwMywxNz
+g1MzM3MTEwLC0xMjQ1NzYzMzI4LDExNzY1NjI4MDUsMTg3NjM4
+ODMyMyw0MTYwNzExODgsMTExNDM4OTAzMCw1ODE5NzQ5NzgsNj
+Q0ODQ4MDQwLC04OTUxNTAxNTAsLTE2OTc3MTk1NDcsMTY5OTUx
+MzgyMywtNDk4MTcxNDg4XX0=
 -->
