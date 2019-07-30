@@ -14,7 +14,7 @@ On crée un répertoire dans domoticz/plugins ... LinkyD2L par exemple. Dans dom
 Copier dans le répertoire des plugins de Domoticz (domoticz/plugins), les fichiers suivants
  - plugin.py : le code principal
  - D2L.py : le "poisson pilote" du précédent (le code de ce que je ne suis pas arrivé à intégrer facilement dans le plugin)
-Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** . 3 "devices" seront alors créés dazns l'onglet utilities :
+Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** . 3 "devices" seront alors créés dans l'onglet utilit (Mesures) :
  - **LKY_Watts** : consommation instantanée 
  - **LKY_Amperes** : suivi de l'intensité consommée en temps réel
  - **LKY_IndexKWH** : valeur de l'index Enedis
@@ -29,8 +29,8 @@ Dans Domoticz Installer le Hardware D2L, en renseignant vos codes **consospy** .
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU3NjMzMjgsMTE3NjU2MjgwNSwxOD
-c2Mzg4MzIzLDQxNjA3MTE4OCwxMTE0Mzg5MDMwLDU4MTk3NDk3
-OCw2NDQ4NDgwNDAsLTg5NTE1MDE1MCwtMTY5NzcxOTU0NywxNj
-k5NTEzODIzLC00OTgxNzE0ODhdfQ==
+eyJoaXN0b3J5IjpbNzk3MTczMjkwLC0xMjQ1NzYzMzI4LDExNz
+Y1NjI4MDUsMTg3NjM4ODMyMyw0MTYwNzExODgsMTExNDM4OTAz
+MCw1ODE5NzQ5NzgsNjQ0ODQ4MDQwLC04OTUxNTAxNTAsLTE2OT
+c3MTk1NDcsMTY5OTUxMzgyMywtNDk4MTcxNDg4XX0=
 -->
