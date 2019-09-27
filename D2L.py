@@ -7,6 +7,8 @@
 #       2 arg2  Mot de passe Consospy
 #       3 arg3  Nombre de minutes a extraire (facultatif)
 #
+#       1.0.2   protection contre un date non initialisee, a voir avec le support
+#
 
 
 import requests
@@ -30,7 +32,7 @@ def error_exit(status,message):
 #
 
 #path="/home/pi/domoticz/plugins/LinkyD2L"
-version = "1.0.1"
+version = "1.0.2"
 script  = os.path.realpath(__file__)
 path=os.path.dirname(script)
 txtFile = path + "/D2L.txt"
@@ -89,6 +91,7 @@ Contrat=response.text
 response = requests.get(apiB+'/' + str(idModule) + '/LastIndexes', headers=headers, data=data)
 if response.status_code != 200 : error_exit(5,str(reponse.status_code)+" Lecture dernier index")
 j=json.loads(response.text)
+jsave=j
 Index=str(j['baseHchcEjphnBbrhcjb'])
 
 response = requests.get(apiB+'/' + str(idModule) + '/LastCurrents', headers=headers, data=data)
@@ -96,6 +99,10 @@ if response.status_code != 200 : error_exit(6,str(reponse.status_code)+" Lecture
 j=json.loads(response.text)
 Intensite=str(j['iinst1'])
 hr=str(j["horloge"])
+
+# suite probleme de epierre 09/2019
+if hr == '0001-01-01T00:00:00' : hr=str(jsave["horloge"])
+
 sDate=hr[0:10]
 sHour=hr[11:19]
 
