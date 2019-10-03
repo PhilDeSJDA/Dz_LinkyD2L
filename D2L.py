@@ -8,6 +8,7 @@
 #       3 arg3  Nombre de minutes a extraire (facultatif)
 #
 #       1.0.2   protection contre un date non initialisee, a voir avec le support
+#       1.0.3   protection contre une intensite a 'None'
 #
 
 
@@ -32,7 +33,7 @@ def error_exit(status,message):
 #
 
 #path="/home/pi/domoticz/plugins/LinkyD2L"
-version = "1.0.2"
+version = "1.0.3"
 script  = os.path.realpath(__file__)
 path=os.path.dirname(script)
 txtFile = path + "/D2L.txt"
@@ -98,8 +99,9 @@ response = requests.get(apiB+'/' + str(idModule) + '/LastCurrents', headers=head
 if response.status_code != 200 : error_exit(6,str(reponse.status_code)+" Lecture dernieres intensites")
 j=json.loads(response.text)
 Intensite=str(j['iinst1'])
-hr=str(j["horloge"])
+if Intensite == 'None' : Intensite='0'
 
+hr=str(j["horloge"])
 # suite probleme de epierre 09/2019
 if hr == '0001-01-01T00:00:00' : hr=str(jsave["horloge"])
 
